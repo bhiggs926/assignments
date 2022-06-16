@@ -1,0 +1,20 @@
+/* Your website will have proper padding/spacing to lay things out nicely */
+/* Your website will have 3 colors */
+
+body{
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+h1{
+    background-color: red;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    color: red;
+}

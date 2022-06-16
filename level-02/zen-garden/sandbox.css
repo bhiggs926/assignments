@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: white;
+    border: 2px solid black;
+}
+
+/* desktop */
+@media only screen and(min-width: 1508px){
+    p{
+        font-size: 22px;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: repeat(29, 100px);
+        border: 2px solid black;
+    }
+    
+    .header{
+        display: grid;
+        color: white;
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        background-color: black;
+        text-align: center;
+        font-size: 35px;
+        border-bottom: 5px solid white;
+        font-family: 'Inspiration', cursive;
+        
+    }
+    
+    img{
+        display: grid;
+        grid-column: 1/-1;
+        grid-row: 2/10;
+        border: 2px solid black;
+        height: 80%;
+        width: 100%;
+        top: 12%;
+    } 
+    
+    .beauty{
+        display: grid;
+        grid-column: 6/11;
+        grid-row: 5/6;
+        color: white;
+        background-color: black;
+        font-size: 40px;
+        text-align: center;
+        font-size: 45px;
+        border-radius: 0% 10% 0% 10% 0%;
+        font-family: 'Dancing Script', cursive;
+        padding-top: 15px;
+    }
+    
+    .navContainer{
+        grid-column: 3/14;
+        grid-row: 8/9;
+        border: 5px solid black;
+        background-color: white;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 89px;
+        margin-bottom: 40px;
+    }
+    nav a{
+        border: 2px solid white;
+        padding: 23px 35px;
+        font-family: 'Tillana', cursive;
+        font-size: 26px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav a:hover{
+        border: 2px solid white;
+        padding: 23px 35px;
+        font-family: 'Tillana', cursive;
+        font-size: 26px;
+        background-color: green;
+        text-decoration: none;
+        color: black;
+    }
+    .active{
+        color: black;
+        background-color: white;
+    }
+    
+    
+    .enlighten{
+        background-color: white;
+        display: grid;
+        grid-column: 2/5;
+        grid-row: 9/13;
+        text-align: center;
+        color: black;
+    }
+    
+    h4{
+        font-size: 45px;
+        font-family: 'Tillana', cursive;
+    }
+    
+    .border1{
+        background-color: green;
+        height: 500px;
+        width: 1px;
+        grid-column:5/6;
+        margin-left: 50px;
+    }
+    
+    .border2{
+        background-color: green;
+        height: 600px;
+        width: 1px;
+        grid-column:11/12;
+        margin-left: 50px;
+    }
+    
+    .border3{
+        background-color: green;
+        height: 1px;
+        width: 100%;
+        grid-column:2/15;
+        grid-row: 17/17;
+    
+        
+    }
+    
+    .englighten p{
+        background-color: white;
+        color: black;
+    }
+    
+    .participation{
+        grid-column: 6/11;
+        grid-row: 9/15;
+        text-align: center;
+        color: black;
+    }
+    
+    .benefits{
+        grid-column: 3/14;
+        grid-row: 17/19;
+        text-align: center;
+        color: black;
+    }
+    
+     .about{
+        grid-column: 12/15;
+        grid-row: 9/12;
+        color: black;
+        text-align: center;
+    }
+    
+    .imgScroll{
+        
+        grid-column: 1/-1;
+        grid-row: 20/30;
+    }
+    .stackedRocks{
+        background-image: url(stacked-rocks.png);
+        border: 3px solid black;
+    }
+    
+    .requirements{
+        grid-column: 5/12;
+        grid-row: 21/21;
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    }
+    
+    footer{
+        grid-column: 1/-1;
+        grid-row: 29/30;
+        background-color: black;
+        border: 2px solid black;
+    } 
+    .fa-brands{
+        grid-column: 3/5 ;
+        width: 300px;
+        height: 100px;
+        color: red;
+    }
+
+}
+p{
+    font-size: 22px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(29, 100px);
+    border: 2px solid black;
+}
+
+.header{
+    display: grid;
+    color: white;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 5px solid white;
+    font-family: 'Inspiration', cursive;
+    
+}
+
+img{
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 2/10;
+    border: 2px solid black;
+    height: 80%;
+    width: 100%;
+    top: 12%;
+} 
+
+.beauty{
+    display: grid;
+    grid-column: 6/11;
+    grid-row: 5/6;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 0% 10% 0% 10% 0%;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 15px;
+}
+
+.navContainer{
+    grid-column: 3/14;
+    grid-row: 8/9;
+    border: 5px solid black;
+    background-color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 89px;
+    margin-bottom: 40px;
+}
+nav a{
+    border: 2px solid white;
+    padding: 23px 35px;
+    font-family: 'Tillana', cursive;
+    font-size: 26px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    border: 2px solid white;
+    padding: 23px 35px;
+    font-family: 'Tillana', cursive;
+    font-size: 26px;
+    background-color: green;
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: black;
+    background-color: white;
+}
+
+
+.enlighten{
+    background-color: white;
+    display: grid;
+    grid-column: 2/5;
+    grid-row: 9/13;
+    text-align: center;
+    color: black;
+}
+
+h4{
+    font-size: 45px;
+    font-family: 'Tillana', cursive;
+}
+
+.border1{
+    background-color: green;
+    height: 500px;
+    width: 1px;
+    grid-column:5/6;
+    margin-left: 50px;
+}
+
+.border2{
+    background-color: green;
+    height: 600px;
+    width: 1px;
+    grid-column:11/12;
+    margin-left: 50px;
+}
+
+.border3{
+    background-color: green;
+    height: 1px;
+    width: 100%;
+    grid-column:2/15;
+    grid-row: 17/17;
+
+    
+}
+
+.englighten p{
+    background-color: white;
+    color: black;
+}
+
+.participation{
+    grid-column: 6/11;
+    grid-row: 9/15;
+    text-align: center;
+    color: black;
+}
+
+.benefits{
+    grid-column: 3/14;
+    grid-row: 17/19;
+    text-align: center;
+    color: black;
+}
+
+ .about{
+    grid-column: 12/15;
+    grid-row: 9/12;
+    color: black;
+    text-align: center;
+}
+
+.imgScroll{
+    
+    grid-column: 1/-1;
+    grid-row: 20/30;
+}
+.stackedRocks{
+    background-image: url(stacked-rocks.png);
+    border: 3px solid black;
+}
+
+.requirements{
+    grid-column: 5/12;
+    grid-row: 21/21;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+footer{
+    grid-column: 1/-1;
+    grid-row: 29/30;
+    background-color: black;
+    border: 2px solid black;
+} 
+.fa-brands{
+    grid-column: 3/5 ;
+    width: 300px;
+    height: 100px;
+    color: red;
+}

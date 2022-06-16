@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #08469E;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+}
+
+/* MARIOS PEST CONTROL */
+header{
+    font-size: 52px;
+    grid-column: 1/-1;
+    color: #F4F3F4;
+    background-color: #C2352D;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 10px 1px #08469E;
+    border-bottom: 3px solid #D89E6D;
+    text-align: center;
+}
+
+.listItem1{
+    border: 5px solid #D89E6D;
+    text-align: center;
+    color: #D89E6D;
+    position: absolute;
+    top: 11%;
+    left: 5%;
+}
+
+.listItem2{
+    border: 5px solid #D89E6D;
+    text-align: center;
+    color: #D89E6D;
+    position: absolute;
+    top: 11%;
+    left: 40%;
+
+}
+
+.listItem3{
+    border: 5px solid #D89E6D;
+    text-align: center;
+    color: #D89E6D;
+    position: absolute;
+    top: 11%;
+    right: 5%;
+
+}
+
+form{
+    grid-column: 1/13;
+    font-family: 'Fredoka One', cursive;
+}
+
+button{
+    font-size: 20px;
+    margin-left: 75px;
+    color: #ffff00;
+    background-color: #08469E;
+    text-shadow: .5px 5px #C2352D;
+    font-family: 'Fredoka One', cursive;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+input{
+    background-color: #ffff00;
+    color: black;
+}
+
+.name{
+    color: #F4F3F4;
+    font-size: 30px;
+
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+footer{
+    background-color: #C2352D;
+    bottom: 0%;
+    position: absolute;
+    color: #F4F3F4;
+}

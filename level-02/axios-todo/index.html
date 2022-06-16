@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Add an Item In Your To Do list</h1>
+    <form name = "todoform" id="todoform">
+        <input name= "title" placeholder= "Title">
+        <input name= "description" placeholder= "Description">
+        <input name= "imgUrl" placeholder="Image Url" type="url">
+        <input name= "price" placeholder= "Price" type="number">
+        <button>Submit</button>
+    </form>
+    <div id="todoList">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

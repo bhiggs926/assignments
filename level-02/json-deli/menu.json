@@ -1,0 +1,93 @@
+
+
+{
+    "menu": [
+        {
+            "appetizers": [
+                {
+                    "chipsNDip": {
+                        "name": "Chips and Dip",
+                        "ingredients":["salsa", "chips"],
+                        "description": "house made salsa with chips"
+                    },
+
+                    "fries": {
+                        "name": "fries",
+                        "ingredients":["potatoe fries", "dipping sauce"],
+                        "description": "house fries (either normal or chilly cheese style) served with our signature dipping sauce"
+                    }
+                }
+            ],
+
+
+            "hotSandwiches": [
+                {
+                    "blt": {
+                        "name": "Bacon Lettuce Tomato",
+                        "ingredients":["cheese", "ham"],
+                        "description": "Heated Bacon, lettuce, and tomato with our signature sauce"
+                    },
+
+                    "deepFriedPB": {
+                        "name": "Deep Fried PB n J",
+                        "ingredients": ["Strawberry jam", "Peanut butter"],
+                        "description": "Deep Fried Peanut butter and jelly sandwich served with a light coting of powder sugar on top"
+                    }
+                }
+            ],
+
+
+            "coldSandwiches": [
+                {
+                    "hamNCheese": {
+                        "name": "the classic",
+                        "ingredients":["ham", "cheese"],
+                        "description": "ham and cheese with your choice of veggies"
+                    }, 
+
+                    "tuna": {
+                        "name": "deep sea",
+                        "ingredients":["tuna", "white bread"],
+                        "description": "tuna served on our popular white bread."
+                    }
+                }
+            ],
+
+
+            "desserts": [
+                {
+                    "iceCream": {
+                        "name": "Vanilla Icecream",
+                        "ingredients":["vanilla bean", "sugar"],
+                        "description": "soft served vanilla icecream"
+                    },
+
+                    "chocolateCake": {
+                        "name": "",
+                        "ingredients":["Chocolate frosting", "Chocolate cake"],
+                        "description": "chocolate cake and chocolate frosting that pairs perfectly with icecream"
+                    }
+                }
+            ],
+
+
+            "drinks": [
+                {
+                    "coffee": {
+                        "name": "Java",
+                        "ingredients":["Sugar", "coffee", "creamer"],
+                        "description": "Hot or cold coffee with cream and sugar on the side"
+                    },
+
+                    "smoothie": {
+                        "name": "Strawberry smoothie",
+                        "ingredients":["strawberry", "milk", "protien"],
+                        "description": "protien boosted strawberry fruit smoothie"
+                    }
+                }
+            ]
+        }
+    ]
+}
+    
+

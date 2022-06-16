@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple HTML Calculator</h1>
+
+    <form name="calculator" class="form">
+        <div name="addition"> 
+            <h3>Add</h3>
+            <input type="number" name="firstInput"/> +
+            <input class='input' type="number" name="secondInput"/>
+            <button class="submitButton">Submit</button>
+            <br>
+            <h5 id= 'additionResult'> </h5>
+        </div>
+
+        <div id= "subtract"> 
+            <h3>Subtract</h3>
+            <input type="number" name="thirdInput"/> - 
+            <input class='input' type="number" name="fourthInput"/>
+            <button class="submitButton">Submit</button>
+            <br>
+            <h5 id= 'subtractResult'> </h5>
+        </div>
+
+        <div id= "multiply"> 
+            <h3>Multiply</h3>
+            <input type="number" name="fithInput"/> *
+            <input class='input' type="number" name="sixthInput"/>
+            <button class="submitButton">Submit</button>
+            <br>
+            <h5 id= "multiplyResult"> </h5>
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+<!-- You will have one section <div> for each math operation so 3 sections total -->
+<!-- Each section has two inputs to take the first and second numbers -->
+<!-- Each section will have a button to perform the operation -->
